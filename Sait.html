@@ -6,9 +6,57 @@
         <script>scr="src/script.js"</script>
     </head>
     <body>
-        <p>Welcome</p>
-        <script>
-            hello();
-        </script>
+        <form action="/" method="post">
+            <label for="username">Имя пользователя:
+            <input type="text" placeholder="Введите ваше имя">
+            </label>
+            <br>
+            <button type="reset">Очистить форму</button>
+        </form>
+        <br>
+        <form action="/" method="post">
+            <label for="username">Введите пароль:
+            <input type="Password" placeholder="Введите пароль">
+            </label>
+            <br>
+            <button type="reset">Сброс пароля</button>
+        </form>
+        <br>
+        
+        <label>Ваши интересы</label>
+        <div>
+        <input type="checkbox" id="Computer" name="Компьютер" unchecked/>
+        <label for="Computer">Компьютер</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Computer" name="Компьютер" unchecked/>
+            <label for="Computer">Спорт</label>
+        </div>
+        
+            
+        <div>
+            <input type="checkbox" id="Computer" name="Компьютер" unchecked/>
+            <label for="Computer">Искусство</label>
+        </div>
+
+        <br>
+        <form>
+            <select id="Inter" name="Inter">
+                <option value="Base">Базы данных</option>
+                <option value="Computer">Компьютер</option>
+                <option value="Sport">Спорт</option>
+                <option value="Iskustvo">Искусство</option>
+            </select>
+        </form>
+        <br>
+        <form>
+            <select id="Time" name="Time">
+                <option value="Less1">1-й урок 9:00 - 9:45</option>
+                <option value="Less2">2-й урок 10:00 - 10:45</option>
+                <option value="Less3">3-й урок 11:00 - 11:45</option>
+                <option value="Less4">4-й урок 12:00 - 12:45</option>
+                <option value="Less5">5-й урок 13:00 - 13:45</option>
+            </select>
+        </form>
     </body>
 </html>
